@@ -84,6 +84,8 @@ def test_dicts():
     for i in range(len(second)):
         d[first[i]] = second[i]
 
+    # другой вариант - "d = dict(zip(first, second))"
+
     assert isinstance(d, dict)
     assert len(d) == 5
     assert list(d.keys()) == first
