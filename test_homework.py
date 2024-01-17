@@ -1,5 +1,3 @@
-
-
 import math
 
 def test_greeting():
